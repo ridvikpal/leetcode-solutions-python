@@ -2,6 +2,12 @@
 #include <queue>
 #include <array>
 
+/**
+ * https://neetcode.io/problems/islands-and-treasure/question
+ *
+ * Time complexity: O(n * m) where n = grid row length, m = grid col length
+ * Space complexity: O(n * m) where n = grid row length, m = grid col length
+ */
 class Solution {
 public:
     void islandsAndTreasure(std::vector<std::vector<int>>& grid) {
