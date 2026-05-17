@@ -1,6 +1,12 @@
 #include <vector>
 #include <algorithm>
 
+/**
+ * https://leetcode.com/problems/3sum/description/
+ *
+ * Time complexity: O(n^2) where n = length of nums
+ * Space complexity: O(n^2) where n = length of nums
+ */
 class Solution {
 public:
     std::vector<std::vector<int>> threeSum(std::vector<int>& nums) {
