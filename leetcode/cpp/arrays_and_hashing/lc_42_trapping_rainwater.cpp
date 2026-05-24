@@ -1,5 +1,11 @@
 #include <vector>
 
+/**
+ * https://leetcode.com/problems/trapping-rain-water/description/
+ *
+ * Time complexity: O(n) where n = length of height
+ * Space complexity: O(n) where n = length of height
+ */
 class Solution {
 public:
     int trap(std::vector<int>& height) {
