@@ -36,7 +36,7 @@ public:
             frequencyToNums[element.second].push_back(element.first);
         }
 
-        // loop through the frequncyToNums array backwards
+        // loop through the frequencyToNums array backwards
         // since largest number frequencies will be the largest indices
         for (int i{static_cast<int>(frequencyToNums.size()) - 1}; i >= 0; --i) {
             // if we already have k elements in the results array
@@ -44,7 +44,7 @@ public:
             if (result.size() == k) {
                 break;
             }
-            
+
             // populate the results array with all the numnbers in each frequencyToNums array
             // for the frequency at index i
             result.insert(result.end(), frequencyToNums[i].begin(), frequencyToNums[i].end());
