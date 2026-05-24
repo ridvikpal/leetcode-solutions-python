@@ -1,6 +1,6 @@
-# ridvikpal/leetcode-solutions
+# ridvikpal/leetcode-solutions-python
 
-This repo contains my solutions to problems from common data structures and algorithms websites:
+This repo contains my solutions in python to problems from common data structures and algorithms websites:
 
 - [LeetCode](leetcode/)
 - [NeetCode](neetcode/)
